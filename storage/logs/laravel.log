@@ -1,0 +1,17 @@
+[2019-04-15 18:18:01] local.ERROR: exception 'LogicException' with message 'Unable to prepare route [api/user] for serialization. Uses Closure.' in C:\wamp\www\BugHunter\vendor\laravel\framework\src\Illuminate\Routing\Route.php:817
+Stack trace:
+#0 C:\wamp\www\BugHunter\vendor\laravel\framework\src\Illuminate\Foundation\Console\RouteCacheCommand.php(62): Illuminate\Routing\Route->prepareForSerialization()
+#1 [internal function]: Illuminate\Foundation\Console\RouteCacheCommand->fire()
+#2 C:\wamp\www\BugHunter\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(30): call_user_func_array(Array, Array)
+#3 C:\wamp\www\BugHunter\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(87): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#4 C:\wamp\www\BugHunter\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(31): Illuminate\Container\BoundMethod::callBoundMethod(Object(Illuminate\Foundation\Application), Array, Object(Closure))
+#5 C:\wamp\www\BugHunter\vendor\laravel\framework\src\Illuminate\Container\Container.php(539): Illuminate\Container\BoundMethod::call(Object(Illuminate\Foundation\Application), Array, Array, NULL)
+#6 C:\wamp\www\BugHunter\vendor\laravel\framework\src\Illuminate\Console\Command.php(182): Illuminate\Container\Container->call(Array)
+#7 C:\wamp\www\BugHunter\vendor\symfony\console\Command\Command.php(255): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+#8 C:\wamp\www\BugHunter\vendor\laravel\framework\src\Illuminate\Console\Command.php(168): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+#9 C:\wamp\www\BugHunter\vendor\symfony\console\Application.php(960): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\wamp\www\BugHunter\vendor\symfony\console\Application.php(255): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Foundation\Console\RouteCacheCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\wamp\www\BugHunter\vendor\symfony\console\Application.php(148): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\wamp\www\BugHunter\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(122): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\wamp\www\BugHunter\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 {main}  

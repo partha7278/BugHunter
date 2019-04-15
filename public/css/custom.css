@@ -1,0 +1,584 @@
+
+/*--------------------------------------- Sidebar CSS--------------------------------------  */
+.sidebar-bg{width: 224px;
+    background: #282d4c;
+    box-shadow: 0.31px 2.98px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    transition: 0.5s;
+    overflow-x:hidden;
+    z-index: 3;
+    top:0px;
+}
+.sidebar-bg::-webkit-scrollbar-track{
+    border-radius:5px;
+    background-color: #bfbfbf;
+}
+.sidebar-bg::-webkit-scrollbar{
+    width:5px;
+}
+.sidebar-bg::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #808080;
+}
+.sidebar-menu{
+    margin-left:21px;
+    margin-top:20px;
+}
+.sidebar-btn{font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18.94px;
+    text-align: left;
+    color: #b0adb9;
+    cursor:pointer;
+    border:none;
+    width: 203px;
+    height: 36px;
+    border-radius: 17px 0px 0px 17px;
+    background:none;
+    padding-left:27px;
+}
+.sidebar-btn:hover,.sidebar-btn:active,.btn-active{
+    font-weight: normal;
+    color: white;
+    background: #f1547f;
+    outline:none;
+}
+.sidebar-btn:focus{outline:none;}
+.sidebar-icon{
+    color: #b0adb9;
+    font-size: 15px;
+    padding-right:10px;
+}
+.sidebar-btn:hover .sidebar-icon,.sidebar-btn:active .sidebar-icon,.btn-active .sidebar-icon{
+    color: white;
+}
+.sidebar-img-tempmail{width:25px;height:14px;padding-right:8px;padding-bottom:2px;}
+.no-logo{padding-left:37px;}
+.sidebar-menu-name{font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    color: #e4dadd;
+    margin-bottom:8px;
+}
+.hidden-menu1,.hidden-menu2,.hidden-menu3{
+    cursor:pointer;
+}
+.hidden-menu-icon1,.hidden-menu-icon2,.hidden-menu-icon3{
+    float:right;
+    padding-right:20px;
+    font-size:20px;
+}
+#hidden-menu-item1,#hidden-menu-item2,#hidden-menu-item3{display:none;}
+.add-item{color:white;
+    font-weight:200;
+    padding:9px 10px;
+    font-size:12px;
+    margin-left:30px;
+    border-radius:50%;
+    cursor:pointer;
+}
+.add-item:hover{background-color: #464f86;}
+/*---------------------->>>>>>>>>>>>>>>>>>--- End Sidebar CSS---<<<<<<<<<<<<<<<----------------  */
+
+
+
+
+/*--------------------------------------- Testing Page CSS--------------------------------------  */
+.main-content{
+    margin-left:226px;
+    margin-top:50px;
+    width:auto;
+    height:100%;
+}
+.test-namebar-bg{width:100%;
+    height: 48px;
+    margin-top:0px;
+    background: #f6f1f1;
+    box-shadow: 0.21px 1.99px 27px rgba(0, 0, 0, 0.23);
+    display:inline-flex;
+}
+.test-namebar-bug-cat{font-family: Arial;
+    font-weight:bold;
+    font-size: 24px;
+    line-height: 18.94px;
+    padding-left:155px;
+    padding-top:13px;
+    color: #9b6bb9;
+}
+.test-namebar-bug-arrow{
+    font-size:18px;
+    color:#a36f6a;
+    padding-top:15px;
+    padding-left:60px;
+}
+.test-namebar-bug-link{
+    padding-left:40px;
+    font-weight:normal;
+    color: #aa82c3;
+}
+.test-namebar-bug-test{
+    padding-left:250px;
+}
+.test-bug-cat-menu{
+    margin-top:50px;
+    margin-left:40px;
+    margin-right:40px;
+    border-left:6px solid #3e2d55;
+}
+.menu-box{width:100%;
+    margin-bottom:10px;
+}
+.menu-box-header{
+    width:100%;
+    height: 42px;
+    background: #55446d;
+    border-radius: 0px 4px 4px 0px;
+    padding-top:10px;
+    transition:0.5s;
+}
+.menu-box-name{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 18.94px;
+    color: #cdbfd5;
+    padding-left:38px;
+}
+.menu-box-link{
+    margin-top:-5px;
+    transition: 0.5s;
+    padding-right:30px;
+    font-size:27px;
+    color: #c1a7a7;
+    text-shadow: 0.52px 4.97px 18px rgba(0, 0, 0, 0.13);
+}
+.menu-box-link:hover{text-decoration :none;
+    opacity:0.8;
+    color: #c1a7a7;
+    text-shadow: 0.52px 4.97px 18px rgba(0, 0, 0, 0.13);
+}
+.test-item-list{
+    border-left: 6px solid #8ed3b0;
+    margin:15px 5px 20px 30px;
+}
+.test-item-list-bg{
+    height: 41px;
+    background: #edf5f2;
+    margin-top:10px;
+}
+.test-item-list-name{
+    font-family: Gadugi;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: left;
+    color: #0a8169;
+    padding-top:7px;
+    padding-left:20px;
+}
+.test-item-list-bug{
+    font-family:Consolas;
+    font-weight:bold;
+    color: #4daba5;
+    font-size: 20px;
+    padding-left:0px;
+}
+.test-item-list-bug-add{
+    color:#469565;
+    font-size:24px;
+    margin-top:9px;
+    margin-left:30px;
+    cursor:pointer;
+    text-shadow:0.52px 4.97px 6px rgba(0, 0, 0, 0.13);
+}
+.test-item-list-bug-info{
+    color: #469565;
+    margin:0px;
+}
+.test-item-list-bug-info-link{
+    margin-left:50px;
+    padding-left:0px;
+    margin-top:9px;
+}
+.test-item-list-bug-add:hover{
+    opacity:0.8;
+}
+.test-item-list-com{
+    padding-top:10px;
+    padding-left:90px;
+}
+.vul_url{
+    padding:2px 8px;
+    border-radius:5px;
+}
+.bug-info-step{
+    padding:15px 30px 30px 30px;
+}
+.close-btn{border-radius:20px;padding:6px 20px;transition:0.5s;}
+.submit-btn{border-radius:20px;padding:6px 24px;transition:0.5s;}
+
+
+/*--------- switch ---------- */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 19px;
+}
+.switch input {display:none;}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: #75a889;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #75a889;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(22px);
+  -ms-transform: translateX(22px);
+  transform: translateX(22px);
+}
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+/*---------------------->>>>>>>>>>>>>>>>>>--- End Testing Page CSS---<<<<<<<<<<<<<<<-------------  */
+
+
+
+
+/*--------------------------------------- Product Update Page CSS--------------------------------------  */
+.input-search::-webkit-input-placeholder { color: #bfbfbf;font-size:19px;font-family:Lato;}
+.input-search::-moz-placeholder { color: #bfbfbf;font-size:19px;font-family:Lato;}
+.input-search:-ms-input-placeholder { color: #bfbfbf;font-size:19px;font-family:Lato;}
+.input-search:-moz-placeholder { color: #bfbfbf;font-size:19px;font-family:Lato;}
+
+.input-search{height:35px;width:350px;}
+.update-menu{margin:30px 40px 40px 40px;
+    border-left:6px solid #3e2d55;
+}
+.update-menu-item-list{padding:15px 5px 15px 30px;}
+.menu-box-date{
+  font-size: 16px;
+  font-family: "Bahnschrift";
+  color: rgb(199, 180, 211);
+  padding-top:0px;
+  padding-right:80px;
+}
+.update-btn{
+  background-color: rgb(37, 141, 141);
+  box-shadow: 0px 2px 6.65px 0.35px rgba(0, 0, 0, 0.34);
+  width: 95px;
+  height: 33px;
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(238, 234, 234);
+  border:none;
+  border-radius:16px;
+  cursor:pointer;
+  transition:0.5s;
+}
+.update-btn:hover,.update-btn:focus{
+    outline:none;
+    background-color: #3e9f9f;
+    color:#fffefe;
+}
+.delete-btn{background-color: #c6444a;margin-bottom:16px;}
+.delete-btn:hover,.delete-btn:focus{
+    outline:none;
+    background-color: #c7595e;
+}
+.menu-list-btn-mar{margin-left:34px;}
+.input-url{
+    height:30px;width:100%;
+}
+.input-url::-webkit-input-placeholder { color: #bfbfbf;font-size:15px;font-family:Lato;}
+.input-url::-moz-placeholder { color: #bfbfbf;font-size:15px;font-family:Lato;}
+.input-url:-ms-input-placeholder { color: #bfbfbf;font-size:15px;font-family:Lato;}
+.input-url:-moz-placeholder { color: #bfbfbf;font-size:15px;font-family:Lato;}
+
+.input-url-delete{
+    margin-left:12px;
+    margin-top:3px;
+    font-size:23px;
+    color:grey;
+    cursor:pointer;
+    transition:0.5s;
+}
+.input-url-delete:hover{color:#c07979;}
+
+.url_deletemodal-text1{color:#8c8c8c;}
+.url_deletemodal-text2{color:#666666;opacity:0.8;}
+.delete-modal-bg{background:#f9f9f9;}
+.btn-no{border:1px solid #bfbfbf;color:#666666;}
+.btn-no:hover{color:#595959;background: #cccccc;}
+/*-------------------->>>>>>>>>>>>>>>>>>--- End Product Update Page CSS---<<<<<<<<<<<<<<<-------------  */
+
+
+
+
+/*--------------------------------------- Product View Page CSS--------------------------------------  */
+.submenu-list{
+    border-left:6px solid #285c72;
+    margin:10px 5px 15px 20px;
+}
+.submenu-box{width:100%;
+    margin-bottom:6px;
+}
+.submenu-box-header{
+    width:100%;
+    height: 40px;
+    background: #4b8391;
+    border-radius: 0px 2px 2px 0px;
+    padding-top:5px;
+}
+.submenu-box-header-name{
+    font-size: 19px;
+    font-family: "Segoe UI";
+    color: rgb(206, 222, 219);
+    font-weight:600;
+    padding-left:30px;
+}
+.submenu-box-link{text-decoration :none;
+    margin-top:-5px;
+    transition: 0.5s;
+    margin-right:30px;
+    font-size:38px;
+    color: #cfe6e4;
+    opacity: 0.9;
+    text-shadow: 0px 5px 5.64px 0.36px rgba(0, 0, 0, 0.1);
+}
+.submenu-box-link:hover{text-decoration :none;
+    opacity: 0.7;
+    color: #cfe6e4;
+}
+.submenu-box-testing{
+    color:#85aab3;
+    text-shadow: 0px 5px 5.64px 0.36px rgba(0, 0, 0, 0.13);
+    font-size:22px;
+    cursor:pointer;
+    margin-top:4px;
+    margin-right:55px;
+}
+.submenu-box-testing:hover,.testing-active{
+    color:#d6e5e7;
+    text-shadow: 0px 5px 5.04px 0.96px rgba(0, 0, 0, 0.25);
+}
+.view-bug-count{color:#cededb;
+    margin-right:55px;
+    font-size:20px;
+    font-family:"Consolas";
+    font-weight:bold;
+}
+.view-bug-date{margin-right:55px;
+    font-size:15px;
+    opacity:0.9;
+    margin-top:4px;
+    font-family:"Lato";
+    font-weight:bold;
+    color:#cededb;
+}
+.submenu-item-list{
+    margin:12px 2px 20px 13px;
+    border-left:6px solid #73ac8e;
+}
+.submenu-item-list-bg{
+    background:#edf5f2;
+    height:42px;
+    margin-bottom:7px;
+}
+.view-bug-url-date{
+    color:#369c88;
+    font-size:14px;
+    font-family:"calibri";
+    margin-left:20px;
+    margin-top:0px;
+}
+.view-bug-report{
+    color:#77515b;
+    font-size:23px;
+    margin-left:40px;
+    margin-top:8px;
+    text-shadow: 0px 7px 4.6px 0.4px rgba(0, 0, 0, 0.19);
+}
+.view-bug-report:hover{
+    text-decoration:none;
+    color:#715e63;
+}
+.view-bug-report-submited{color:#009999;}
+.view-bug-report-submited:hover{opacity:0.8;
+    color:#009999;
+}
+.view-bug-name{
+    color:#369c88;
+    font-family:"Gadugi";
+    font-size:14px;
+    padding-left:20px;
+    padding-top:9px;
+}
+.view-bug-url{padding-left:0px;}
+/*-------------------->>>>>>>>>>>>>>>>>>--- End Product View Page CSS---<<<<<<<<<<<<<<<-------------  */
+
+
+
+
+/*--------------------------------------- Bug New Page CSS--------------------------------------  */
+.bug-new-form1-bg {
+    border-radius: 6px;
+    box-shadow: 0px 5px 9.3px 0.7px rgba(0, 0, 0, 0.1);
+    height: 122px;
+}
+.bug-new-form1-label {
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(124, 121, 131);
+    padding-top:50px;
+    font-weight:bold;
+    opacity:0.9;
+}
+.bug-view-input-form1,.bug-view-input{
+  background-color: rgb(253, 252, 253);
+  width: 240px;
+  height: 28px;
+  margin-top:48px;
+  margin-left:20px;
+}
+.bug-view-form1-btn{margin-top:45px;
+    margin-left:15px;
+}
+.bug-new-form2-bg {
+  border-radius: 4px;
+  box-shadow: 0px 5px 16.56px 1.44px rgba(0, 0, 0, 0.14);
+  padding:40px 15px 80px 15px;
+  margin:0px 40px;
+}
+.bug-view-input{
+    margin:0px;
+    height:28px;
+    padding:3px 10px;
+}
+.bug-view-input1{width:250px;}
+.bug-view-input2{width:400px;margin-left:25px;}
+
+.bug-view-input::-webkit-input-placeholder { color: #adacac;font-family:Arial;font-size:15px;}
+.bug-view-input::-moz-placeholder { color: #adacac;font-family:Arial;font-size:15px;}
+.bug-view-input:-ms-input-placeholder { color: #adacac;font-family:Arial;font-size:15px;}
+.bug-view-input:-moz-placeholder { color: #adacac;font-family:Arial;font-size:15px;}
+
+.bug-view-input3{width:675px;margin-top:10px;}
+.bug-view-input4{width:675px;margin-top:10px;height:130px;}
+.bug-view-input5{width:675px;margin-top:10px;height:160px;}
+.bug-view-input6{width:675px;margin-top:10px;height:250px;}
+
+.bug-view-form2-btn2{float:right;margin-right:160px;margin-top:10px;}
+.bug-view-form2-btn1{float:right;margin-right:80px;margin-top:10px;}
+
+/*-------------------->>>>>>>>>>>>>>>>>>--- End Bug New Page CSS---<<<<<<<<<<<<<<<-------------  */
+
+
+
+
+
+/*--------------------------------------- Bug Update Page CSS--------------------------------------  */
+.bug-update-form1-bg{border-radius: 6px;
+    box-shadow: 0px 5px 9.3px 0.7px rgba(0, 0, 0, 0.1);
+    height: 122px;
+    margin:0px 50px;
+}
+.bug-update-input1{width:220px;
+    margin-top:48px;
+}
+.bug-update-input2{width:350px;
+    margin-top:48px;
+    margin-left:20px;
+}
+.bug-update-form1-btn{background:#b43a6e;
+    margin-top:45px;
+    transition:0.5s;
+    margin-left:20px;
+}
+.bug-update-form1-btn:hover,.bug-update-form1-btn:focus{background:#c75887;}
+
+/*-------------------->>>>>>>>>>>>>>>>>>--- End Bug Update Page CSS---<<<<<<<<<<<<<<<-------------  */
+
+
+
+
+
+/*--------------------------------------- Bug Report Page CSS--------------------------------------  */
+.report-input-align{padding-left:45px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.report-input-text{padding-right:30px;
+    font-weight:bold;
+    opacity:0.6;
+    font-size:18px;
+    margin-top:-5px;
+}
+.report-contact{font-weight:normal;
+    font-size:16px;
+    color:black;
+    opacity:1.0;
+}
+.report-similar{
+    padding-left:30px;
+}
+.report-similar a{
+    font-family:Arial;
+    background:#9966ff;
+    color:white;
+    padding:6px 17px;
+    border-radius:15px;
+    font-size:16px;
+}
+.report-similar a:hover{
+    background:#aa80ff;
+    text-decoration:none;
+}
+/*-------------------->>>>>>>>>>>>>>>>>>--- End Bug Report Page CSS---<<<<<<<<<<<<<<<-------------  */
+
+
+
+
+
+/*--------------------------------------- Bug info Page CSS--------------------------------------  */
+.info-poc{color:#333333;
+    padding-left:20px;
+    padding-bottom:30px;
+}
+.info-poc-name{color:#737373;
+    font-size:16px;
+}
+.info-bug{padding-left:40px;
+    color:#737373;
+    padding-bottom:30px;
+}
+/*-------------------->>>>>>>>>>>>>>>>>>--- End Bug info Page CSS---<<<<<<<<<<<<<<<-------------  */
