@@ -32,6 +32,7 @@ php artisan config:cache
 - Run this Command for give permission
 ```sudo chmod -R 777 ./BugHunter```
 
-### Note:- This is Linux Version 
+#### Note:-
+This version work on both Linux & Windows( Its slightly slow ). 
 
 
